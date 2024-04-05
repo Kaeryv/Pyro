@@ -1,0 +1,15 @@
+[project]
+name = "pyro"
+version = "2024.4.0"
+dependencies= [
+	"numpy"
+]
+requires-python = ">= 3.6"
+authors = [
+  {name = "Nicolas Roy", email = "nicolas.roy@unamur.be"},
+]
+
+description = "ROCM Libraries in python, simply."'
+readme = {file = "README.md", content-type = "text/markdown"}
+license = {text = "MIT License"}
+keywords = ['rocm', 'gpu', 'hpc', 'numpy']
